@@ -14,19 +14,23 @@ setTimeout(() => {
 }, 1000);
 
 console.log("End");
-Output:
+
+**Output:**
 Start
 End
 Async Task
+
 👉 Even though setTimeout was set to run after 1 second, JavaScript doesn’t block the execution. It finishes "Start" → "End" first, then executes the async callback.
 
 **2. JavaScript is a Dynamic Language**
 You don’t need to declare types explicitly.
 The type of a variable can change at runtime.
+
 Example:
 let x = 5;       // number
 x = "Hello";     // string
 x = true;        // boolean
+
 👉 The same variable x can hold values of different types.
 
 **3. Value Types (Primitives)**
